@@ -31,20 +31,6 @@ public class CheckPassword {
                     break;
                 }
         }
-        if (ok) {
-            char[] charpass = password.toCharArray();
-            ArrayList<Character> WorldNotDuplicate = new ArrayList<Character>();
-            ArrayList<Character> WorldDuplicate = new ArrayList<Character>();
-            for (Character v : charpass) {
-                if (!WorldNotDuplicate.contains(v)) {
-                    WorldNotDuplicate.add(v);
-                } else {
-                    WorldDuplicate.add(v);
-                }
-            }
-            int [] WorldDuplicate(v) = new String()
-            System.out.println("ค่าซ้ำใน ArrayList คือ " + WorldDuplicate.toint());
-        }
         if (ok)
             System.out.println("Your password is OK"); // ถ้า password ไม่เหมือน badWorlds และมากกว่า 8 ตัวอักษร
         else
